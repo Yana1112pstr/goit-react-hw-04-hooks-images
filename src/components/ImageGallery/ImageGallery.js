@@ -21,7 +21,7 @@ const ImageGallery = ({ images, onClick }) => {
   );
 };
 
-ImageGalleryItem.propTypes = {
+ImageGallery.propTypes = {
   onClick: PropTypes.func.isRequired,
   images: PropTypes.arrayOf(
     PropTypes.shape({
